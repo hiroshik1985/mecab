@@ -1,0 +1,7 @@
+version: '3'
+services:
+  mecab:
+      command: /bin/bash
+      build: "dockers/mecab"
+      volumes:
+       - ./datasets:/datasets 
